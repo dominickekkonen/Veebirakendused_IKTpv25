@@ -1,0 +1,93 @@
+h1{
+    font-family: Tahoma, sans-serif;
+    color: yellow;
+    font-size: Larger;
+    font-style: normal;
+    background-color: blue;
+}
+header h1{
+    padding: 5%;
+    font-size: large;
+    border-bottom: 5px solid yellow;
+}
+header {
+    background-color: lightblue;
+    background-image: url('Pilt.png');
+    background-repeat: no-repeat;
+
+}
+footer{
+    padding: 10px;
+    background-color: yellow;
+    color: blue;
+    font-size: Larger;
+    font-variant: small-caps;
+    border-top: 5px solid;
+}
+section#kast1, img{
+    border: 3px dotted black;
+    width: 30%;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 15px 30px 15px 30px;
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    top: 500px;
+}
+section#kast2, img{
+    border: 3px double darkgoldenrod;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px 30px 15px 30px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 500px;
+}
+section#kast3{
+    border: 3px double darkcyan;
+    width: 30%;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 15px 30px 15px 30px;
+    text-align: center;
+}
+/**********NAV************/
+nav ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    padding: 10px;
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-radius: 5px;
+    font-variant: small-caps;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: lightgoldenrodyellow;
+}
+nav{
+    padding: 10px;
+    margin: 10px;
+}
+main {
+    margin-top: 20px;
+}
