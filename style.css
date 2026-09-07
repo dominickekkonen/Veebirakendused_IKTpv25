@@ -24,7 +24,7 @@ footer{
     font-variant: small-caps;
     border-top: 5px solid;
 }
-section#kast1, img{
+section#kast1, img#pilt1{
     border: 3px dotted black;
     width: 30%;
     margin: 2px;
@@ -35,7 +35,7 @@ section#kast1, img{
     right: 100px;
     top: 500px;
 }
-section#kast2, img{
+section#kast2{
     border: 3px double darkgoldenrod;
     width: 55%;
     margin: 5px;
