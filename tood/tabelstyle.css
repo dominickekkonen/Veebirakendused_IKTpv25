@@ -25,6 +25,14 @@ table#keeruline1 td{
     vertical-align: top;
     background-color: lightblue;
 }
+table#iseseisev td{
+    border: 2px solid black;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+    background-color: lightblue;
+}
 td{
     border: 1px solid black;
 }
