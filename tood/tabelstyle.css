@@ -39,3 +39,47 @@ td{
 .nimiA{
     background-color: lightseagreen;
 }
+table#iseseisevtabel{
+    border: 1px solid black;
+    width: 600px;
+    height: 350px;
+}
+#iseseisevtabel tr:nth-child(3) td:nth-child(4){
+    width: 20px;
+}
+.nimi1{
+    background-color: lightseagreen;
+}
+.nimi2{
+    background-color: yellow;
+}
+.nimi3{
+    background-color: burlywood;
+}
+.nimi4{
+    background-color: cornflowerblue;
+}
+.nimi5{
+    background-color: firebrick;
+}
+.nimi6{
+    background-color: yellowgreen;
+}
+.nimi7{
+    background-color: orchid;
+}
+.nimi8{
+    background-color: lemonchiffon;
+}
+.nimi9{
+    background-color: palevioletred;
+}
+.nimi10{
+    background-color: powderblue;
+}
+.nimiplus1{
+    background-color: cornflowerblue;
+}
+.nimiplus2{
+    background-color: chocolate;
+}
