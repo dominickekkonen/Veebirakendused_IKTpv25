@@ -21,3 +21,29 @@
     top: 0;
     left: 40%;
 }
+#daani{
+    width: 330px;
+    height: 210px;
+    border: 1px solid lightgray;
+    border-spacing: 0;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+}
+#daani tr:nth-child(1) td:nth-child(1),
+#daani tr:nth-child(3) td:nth-child(1){/*1.rida ja 1.lahter*/
+    background-color: brown;
+    width: 65px;
+}
+#daani tr:nth-child(2){
+    background-color: white;
+    height: 45px;
+}
+#daani tr:nth-child(1) td:nth-child(3),
+#daani tr:nth-child(3) td:nth-child(3){/*1.rida ja 3.lahter*/
+    background-color: brown;
+    width: 210px;
+}
+#daani td{
+    border: 0px;
+}
