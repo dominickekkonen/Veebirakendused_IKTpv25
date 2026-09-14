@@ -47,3 +47,67 @@
 #daani td{
     border: 0px;
 }
+#Itaalia{
+    width: 330px;
+    height: 210px;
+    border: 1px solid lightgray;
+    border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 60%;
+}
+#Itaalia td:nth-child(1){
+    background-color: green;
+}
+#Itaalia td:nth-child(2){
+    background-color: white;
+}
+#Itaalia td:nth-child(3){
+    background-color: brown;
+}
+#Madagaskar{
+    width: 330px;
+    height: 210px;
+    border: 1px solid lightgray;
+    border-spacing: 0;
+    position: absolute;
+    top: 300px;
+    left: 60%;
+}
+#Madagaskar tr:nth-child(1) td:nth-child(2),
+#Madagaskar tr:nth-child(1) td:nth-child(3){
+    background-color: red;
+}
+#Madagaskar tr:nth-child(2) td:nth-child(2),
+#Madagaskar tr:nth-child(2) td:nth-child(3){
+    background-color: green;
+}
+#Madagaskar td{
+    border: 0px;
+}
+#Sveits{
+    width: 330px;
+    height: 210px;
+    border: 1px solid lightgray;
+    border-spacing: 0;
+    position: absolute;
+    top: 550px;
+    left: 60%;
+}
+#Sveits tr:nth-child(1),
+#Sveits tr:nth-child(2),
+#Sveits tr:nth-child(3),
+#Sveits tr:nth-child(4),
+#Sveits tr:nth-child(5){
+    background-color: red;
+}
+#Sveits tr:nth-child(2) td:nth-child(4),
+#Sveits tr:nth-child(3) td:nth-child(3),
+#Sveits tr:nth-child(3) td:nth-child(4),
+#Sveits tr:nth-child(3) td:nth-child(5),
+#Sveits tr:nth-child(4) td:nth-child(4){
+    background-color: white;
+}
+#Sveits td{
+    border: 0px;
+}

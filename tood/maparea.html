@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Map area</title>
+</head>
+<body>
+<h1>Map area kasutamine</h1>
+<h2>Tuleb klikkida päeva ilma</h2>
+<img src="arvutipilt.jpg" alt="arvuti pilt" usemap="#arvuti">
+<map name="arvuti">
+  <!--circle cords x y R-->
+  <area shape="circle" coords="535, 520, 50" href="https://arvutitark.ee/arvutid-ja-lisad/sulearvutid/notebookasusvivobook-seriess14" alt="ilm" target="_blank">
+  <!--rect cords x y x1 y2-->
+  <area shape="poly" coords="763,312,813,318,782,415,738,400" href="https://www.yr.no/en/forecast/hourly-table/2-588409/Estonia/Harju/Tallinn/Tallinn?i=3" alt="esmilm">
+    <area shape="poly" coords="815,320,870,325,840,425,790,415" href="https://www.yr.no/en/forecast/hourly-table/2-588409/Estonia/Harju/Tallinn/Tallinn?i=4" alt="teisilm">
+    <area shape="poly" coords="874,326,930,333,900,425,845,425" href="https://www.yr.no/en/forecast/hourly-table/2-588409/Estonia/Harju/Tallinn/Tallinn?i=5" alt="kolmilm">
+    <area shape="poly" coords="935,335,995,340,965,435,900,435" href="https://www.yr.no/en/forecast/hourly-table/2-588409/Estonia/Harju/Tallinn/Tallinn?i=6" alt="neljilm">
+    <area shape="poly" coords="811,163,1046,169,767,303,999,332" href="ilm.html" alt="ilm">
+  <!--poly cords tuleb võta kõik koordinatid vasakult panema-->
+  <area shape="poly" coords="5,15,570,15,440,430,5,440" href="https://www.finnair.com/ee-et/sihtkohad/euroopa/holland/amsterdam" alt="arvuti">
+</map>
+<div>Palun kliki pildi peal</div>
+</body>
+</html>
