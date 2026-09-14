@@ -3,6 +3,9 @@
     height: 210px;
     border: 1px solid lightgray;
     border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 40%;
 }
 #eesti tr:nth-child(1){
     background-color: blue;
@@ -12,4 +15,9 @@
 }
 #eesti tr:nth-child(3){
     background-color: white;
+}
+#lipud{
+    position: absolute;
+    top: 0;
+    left: 40%;
 }
