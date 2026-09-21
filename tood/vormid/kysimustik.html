@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <title>Muusika küsimustik</title>
@@ -9,49 +9,136 @@
 <div>HTML vormid ja nupud</div>
 <form action="#">
 <!-- c + tab komentaar -->
-<!-- Tekstkast -->
-    <label for="nimi">Nimi:</label>
-    <input type="text" id="nimi" placeholder="nimi" />
-    <br>
-    <!-- ripploend või rippmenüü -->
-    <label for="stiil">Vali meeldivaim muusikastiil:</label>
-    <br>
-    <select name="stiil" id="stiil">
-        <option value="metall">metall</option>
-        <option value="jazz">jazz</option>
-        <option value="räpp">räpp</option>
-        <option value="elektronik">elektronik</option>
-    </select>
-    <br>
-    <!-- raadio nupp -üks valik mitmest -->
-    <strong>
-        Kuidas sa muussikat peamiselt kuulad?
-    </strong>
-    <br>
-    <input type="radio" name="platform" id="Spotify">
-    <label for="Spotify">Spotify</label>
-    <br>
-    <input type="radio" name="platform" id="Vinüülplaat">
-    <label for="Vinüülplaat">Vinüülplaat</label>
-    <br>
-    <input type="radio" name="platform" id="raadio">
-    <label for="raadio">Raadio</label>
-    <br>
-    <!-- checkbox -->
-    <fieldset>
-        <legend>Tee oma valikud - lemmik ansambel</legend>
-        <input type="checkbox" name="lemmikud" id="beatles">
-        <label for="beatles">Beatles</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="vaults">
-        <label for="vaults">Vaults</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="megadeth">
-        <label for="megadeth">Megadeth</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="Deftones">
-        <label for="Deftones">Deftones</label>
-    </fieldset>
+    <table border="1">
+        <tr>
+            <td>
+                <!-- Tekstkast -->
+                <label for="nimi">Nimi:</label>
+            </td>
+            <td>
+                <!-- ripploend või rippmenüü -->
+                <input type="text" id="nimi" placeholder="nimi" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="stiil">Vali meeldivaim muusikastiil:</label>
+            </td>
+            <td>
+                <!-- raadio nupp -üks valik mitmest -->
+                <select name="stiil" id="stiil">
+                    <option value="metall">metall</option>
+                    <option value="jazz">jazz</option>
+                    <option value="räpp">räpp</option>
+                    <option value="elektronik">elektronik</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>
+                    Kuidas sa muussikat peamiselt kuulad?
+                </strong>
+            </td>
+            <td>
+                <input type="radio" name="platform" id="Spotify">
+                <label for="Spotify">Spotify</label>
+                <br>
+                <input type="radio" name="platform" id="Vinüülplaat">
+                <label for="Vinüülplaat">Vinüülplaat</label>
+                <br>
+                <input type="radio" name="platform" id="raadio">
+                <label for="raadio">Raadio</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <!-- checkbox -->
+                <fieldset class="fieldset">
+                    <legend>Tee oma valikud - lemmik ansambel</legend>
+                    <input type="checkbox" name="lemmikud" id="beatles">
+                    <label for="beatles">Beatles</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="vaults">
+                    <label for="vaults">Vaults</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="megadeth">
+                    <label for="megadeth">Megadeth</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="Deftones">
+                    <label for="Deftones">Deftones</label>
+                    <br>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- range - vahemik -->
+                <label for="tund">
+                    Mitu tundi päevas sa kuulad muusikat?
+                </label>
+            </td>
+            <td>
+                0<input type="range" id="tund" min="0" max="24" value="">24
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Input type colour, file, email, ja 3 ise vali
+            </td>
+            <td>w3schools.com</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="color">
+                    Mis on sinu lemmik värv?
+                </label>
+            </td>
+            <td>
+                <input type="color" id="color" name="color">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="file">Vali faili :</label>
+            </td>
+            <td>
+                <input type="file" id="file" name="myfile">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Sisesta oma email :</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="date">Sisesta oma sünnipäev</label>
+            </td>
+            <td>
+                <input type="date" id="date" name="sünnipäev">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Pilt</strong>
+            </td>
+            <td>
+                <input type="image" src="pilt.gif" alt="Submit" width="150" height="150">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="koduleht">Kirjuta oma koduleht :</label>
+            </td>
+            <td>
+                <input type="url" id="koduleht" name="homepage" placeholder="https://github.com/dominickekkonen">
+            </td>
+        </tr>
+    </table>
 </form>
 </body>
 </html>
