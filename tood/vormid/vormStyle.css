@@ -9,12 +9,12 @@ table, td{
     border-radius: 30px;
     background-color: lightgray;
 }
-input[type=text],[type=date],[type=email],[type=file]{
+input[type=text],[type=date],[type=email],[type=file],[type=url],[type=color]{
     border: 1px solid gray;
     border-radius: 4px;
     padding: 1%;
 }
-label[type=radio]:hover, label[type=radio]:focus{
+label[type=radio],[type=color],[type=date],[type=email],[type=file],[type=url]:hover, label[type=radio],[type=color],[type=date],[type=email],[type=file],[type=url]:focus{
     background-color: lightcyan;
     font-size: 20pt;
     width: 40px;
