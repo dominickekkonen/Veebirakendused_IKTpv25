@@ -41,45 +41,43 @@ td{
 }
 table#iseseisevtabel{
     border: 1px solid black;
-    width: 600px;
-    height: 350px;
+    width: 650px;
+    height: 550px;
 }
-#iseseisevtabel tr:nth-child(3) td:nth-child(4){
-    width: 20px;
-}
-.nimi1{
-    background-color: lightseagreen;
-}
-.nimi2{
+#iseseisevtabel tr:nth-child(2) td:nth-child(1){
+    width: 100px;
     background-color: yellow;
 }
-.nimi3{
-    background-color: burlywood;
+#iseseisevtabel tr:nth-child(1) td:nth-child(1){
+    background-color: red;
 }
-.nimi4{
-    background-color: cornflowerblue;
+#iseseisevtabel tr:nth-child(2) td:nth-child(2){
+    background-color: lightseagreen;
 }
-.nimi5{
-    background-color: firebrick;
+#iseseisevtabel tr:nth-child(2) td:nth-child(3){
+    background-color: lightsalmon;
 }
-.nimi6{
-    background-color: yellowgreen;
+#iseseisevtabel tr:nth-child(3) td:nth-child(1){
+    background-color: green;
 }
-.nimi7{
-    background-color: orchid;
+#iseseisevtabel tr:nth-child(3) td:nth-child(2){
+    background-color: blue;
 }
-.nimi8{
-    background-color: lemonchiffon;
+#iseseisevtabel tr:nth-child(3) td:nth-child(3){
+    background-color: lightpink;
 }
-.nimi9{
-    background-color: palevioletred;
+#iseseisevtabel tr:nth-child(3) td:nth-child(4){
+    background-color: saddlebrown;
 }
-.nimi10{
-    background-color: powderblue;
+#iseseisevtabel tr:nth-child(4) td:nth-child(1){
+    background-color: rebeccapurple;
 }
-.nimiplus1{
-    background-color: cornflowerblue;
+#iseseisevtabel tr:nth-child(5) td:nth-child(1){
+    background-color: goldenrod;
 }
-.nimiplus2{
-    background-color: chocolate;
+#iseseisevtabel tr:nth-child(5) td:nth-child(2){
+    background-color: darkolivegreen;
+}
+#iseseisevtabel tr:nth-child(5) td:nth-child(3){
+    background-color: aqua;
 }
