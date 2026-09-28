@@ -158,6 +158,42 @@
         </tr>
         <tr>
             <td>
+                <label for="Arvamus">Mida arvad muusika kuulamisest koolis?</label>
+            </td>
+            <td>
+                <textarea name="Arvamus" id="Arvamus" cols="30" rows="10" oninput="arvamusLugemine()"></textarea>
+            </td>
+            <td>
+                <div id="vastus6"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Kas sa kuulad raadiot?</strong>
+            </td>
+            <td>
+                <input type="checkbox" name="raadiot" id="jah" value="Jah" onchange="radioKuulamiseValik()">
+                <label for="jah">Jah</label>
+                <input type="checkbox" name="raadiot" id="ei" value="Ei" onchange="radioKuulamiseValik()">
+                <label for="ei">Ei</label>
+            </td>
+            <td>
+                <div id="vastus7"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="radiojaam">Milliseid raadiojaamu oskad nimetada?</label>
+            </td>
+            <td>
+                <input type="text" name="radiojaam" id="radiojaam" placeholder="SkyRadio" onchange="radioJaamiValik()">
+            </td>
+            <td>
+                <div id="vastus8"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <input type="reset" value="Puhasta" onclick="puhasta()">
             </td>
             <td>
