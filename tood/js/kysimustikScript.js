@@ -12,21 +12,26 @@ function radioValik() {
     let Spotify = document.getElementById("Spotify");
     let Raadio = document.getElementById("Raadio");
     let Vinuulplaat = document.getElementById("Vinuulplaat");
-    let valik="";
+    let valik3="";
+    let pilt = document.getElementById("pilt");
     if(Spotify.checked){
-        valik = Spotify.value;
+        valik3 = Spotify.value;
+        pilt.src="../images/spotify.jpg"
     } else if(Raadio.checked){
-        valik = Raadio.value;
+        valik3 = Raadio.value;
+        pilt.src="../images/raadio.jpg"
     } else if(Vinuulplaat.checked){
-        valik = Vinuulplaat.value;
+        valik3 = Vinuulplaat.value;
+        pilt.src="../images/vinuul.jpg"
     } else{
-        valik = "palun tee oma valik";
+        valik3 = "palun tee oma valik";
     }
     //vastus
-    vastus2.innerHTML = "Valik: " + valik;
+    vastus2.innerHTML = "Valik: " + valik3;
     vastus2.style.backgroundColor = "lightyellow";
-    return valik;
+    return valik3;
 }
+
 //checkboxValik
 function checkboxValik() {
     let vastus3 = document.getElementById("vastus3");

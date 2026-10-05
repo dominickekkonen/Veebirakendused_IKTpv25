@@ -32,9 +32,6 @@ function radioValik() {
         if(piltValik[i].checked){
             valitudPilt.src = piltValik[i].value;
         }
-        else{
-            alert('tee oma valiku')
-        }
     }
     //vastus
     vastus2.innerHTML = "Valik: " + valik;
