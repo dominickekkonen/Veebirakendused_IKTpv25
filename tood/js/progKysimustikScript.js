@@ -1,3 +1,4 @@
+//millised keeled kasutaja teab
 function checkboxValik() {
     let vastus1 = document.getElementById("vastus1");
     let keelCs = document.getElementById("keelCs");
@@ -23,18 +24,21 @@ function checkboxValik() {
     vastus1.innerHTML = "Sa tead: " + valik1 + " keeli";
     return valik1;
 }
+//kasutaja arvamus õppimisest
 function arvamusLugemine() {
     let vastus2 = document.getElementById("vastus2");
     let arvamus = document.getElementById("arvamus");
     vastus2.innerHTML ="Arvamus: " + arvamus.value;
     return arvamus.value;
 }
+//kui palju tundi nädalas programmeerid
 function rangeValik() {
     let vastus3 = document.getElementById("vastus3");
     let tund=document.getElementById("tund");
     vastus3.innerHTML = "Sa tegeled programmeerimisega: " + tund.value + " tundi nädalas";
     return tund.value;
 }
+//kas kasutajale meeldib programmerida
 function radioValik() {
     let vastus4=document.getElementById("vastus4")
     let jah=document.getElementById("jah")
@@ -55,12 +59,14 @@ function radioValik() {
     vastus4.innerHTML = "Sinu valik on: " + valik2;
     return valik2
 }
+//tööristad mida saad nimetada
 function progValik() {
     let vastus5=document.getElementById("vastus5")
     let programmid=document.getElementById("programmid")
     vastus5.innerHTML="Sinu nimetatud tööriistad: " + programmid.value;
     return programmid.value
 }
+//millist programmeerimiskeelt ta kasutaks
 function selectValik() {
     let vastus6 = document.getElementById("vastus6");
     let keeleValik = document.getElementById("keeleValik");
@@ -73,6 +79,7 @@ function selectValik() {
     }
     return keeleValik.value;
 }
+//näitab kõiki valikuid korraga
 function loppNuppValitud() {
     let vastusKoik = document.getElementById("vastuskoik");
     let valik1=checkboxValik()
@@ -89,6 +96,7 @@ function loppNuppValitud() {
         "Sinu nimetatud tööriistad: "+programmid+'<br>'+
         "Sinu valik: "+keeleValik+'<br>'
 }
+//puhastab kõik valikud
 function puhastaValitud() {
     vastus1.innerHTML="";
     vastus2.innerHTML="";

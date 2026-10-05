@@ -10,6 +10,7 @@
 <h1>Programmeerimise küsimustik</h1>
 <table>
     <tr>
+        <!--keeled mida kasutaja teab-->
         <td>
             <p>Milliseid programmeerimiskeeli sa tead?</p>
         </td>
@@ -32,6 +33,7 @@
         </td>
     </tr>
     <tr>
+        <!--mida kasutaja arvab programmerimisest-->
         <td>
             <p>Mida arvad programmeerimise õppimisest?</p>
         </td>
@@ -43,17 +45,19 @@
         </td>
     </tr>
     <tr>
+        <!--mittu tundi nädalas kasutaja õpitab programmerida-->
         <td>
             <label for="tund">Mitu tundi nädalas tegeled programmeerimisega?</label>
         </td>
         <td>
-            0<input type="range" id="tund" min="0" max="50" value="" onchange="rangeValik()">50
+            0<input type="range" id="tund" min="0" max="50" onchange="rangeValik()">50
         </td>
         <td>
             <div id="vastus3"></div>
         </td>
     </tr>
     <tr>
+        <!--kas kasutajale meeldib programmerida-->
         <td>
             <p>Kas sulle meeldib programmeerida?</p>
         </td>
@@ -69,6 +73,7 @@
         </td>
     </tr>
     <tr>
+        <!--programmerimise tööristad mida-->
         <td>
             <label for="programmid">Milliseid programmeerimisega seotud tööriistu oskad nimetada?</label>
         </td>
@@ -80,6 +85,7 @@
         </td>
     </tr>
     <tr>
+        <!--keel mis meeldib kõige rohkem-->
         <td>
             <label for="keeleValik">Millist programmeerimiskeelt sooviksid kõige rohkem õppida?</label>
         </td>
@@ -97,6 +103,7 @@
         </td>
     </tr>
 </table>
+<!--nuppud puhasta/saada-->
 <input type="button" id="saada" onclick="loppNuppValitud()" value="Saada">
 <input type="reset" id="puhasta" onclick="puhastaValitud()" value="Puhasta">
 </body>
