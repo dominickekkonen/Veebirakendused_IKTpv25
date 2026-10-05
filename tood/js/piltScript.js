@@ -12,3 +12,32 @@ function juhuslikPilt() {
     //Math.random = juhuslik arv
     randomPilt.src=pilt;
 }
+function selectValik(){
+    let vastus=document.getElementById('vastus')
+    let valik=document.getElementById('valik')
+    let randomPilt=document.getElementById('randomPilt')
+    if(randomPilt.getAttribute('src')==valik.value){
+        vastus.innerHTML="ÖIGE";
+        vastus.style.color="green";
+    }
+    else{
+        vastus.innerHTML="VALE";
+        vastus.style.color="red"
+    }
+}
+function radioValik() {
+    let piltValik=document.getElementsByName("piltValik") //Mittu elemendi ühe nimega
+    let valitudPilt=document.getElementById("valitudPilt")
+    for(let i=0;i<piltValik.length;i++){
+        if(piltValik[i].checked){
+            valitudPilt.src = piltValik[i].value;
+        }
+        else{
+            alert('tee oma valiku')
+        }
+    }
+    //vastus
+    vastus2.innerHTML = "Valik: " + valik;
+    vastus2.style.backgroundColor = "lightyellow";
+    return valik;
+}

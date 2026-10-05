@@ -9,3 +9,21 @@ input[type=button]{
     padding: 5px;
     background-color: lightyellow;
 }
+div#vastus{
+    border: 1px solid gray;
+    position: absolute;
+    top: 300px;
+    left: 330px;
+    padding: 5px;
+    background-color: lightyellow;
+}
+select{
+
+}
+label:hover{
+    font-weight: bold;
+    background-color: lightyellow;
+}
+section#valik2{
+    border: 2px solid black;
+}
