@@ -7,14 +7,14 @@ table, td{
 }
 #saada{
     position: absolute;
-    top: 530px;
+    top: 730px;
     left: 20%;
     width: 80px;
     background-color: lightseagreen;
 }
 #puhasta{
     position: absolute;
-    top: 530px;
+    top: 730px;
     left: 10%;
     width: 80px;
     background-color: lightseagreen;
@@ -29,4 +29,8 @@ table, td{
 }
 #programmid{
     width: 130px;
+}
+#piltVastus{
+    width: 180px;
+    height: 180px;
 }

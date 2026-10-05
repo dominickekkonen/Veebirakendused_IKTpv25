@@ -39,12 +39,15 @@ function radioValik() {
     let vastus4=document.getElementById("vastus4")
     let jah=document.getElementById("jah")
     let ei=document.getElementById("ei")
+    let pilt = document.getElementById("piltVastus");
     let valik2="";
     if(jah.checked){
         valik2 = jah.value
+        pilt.src="../images/smile.png"
     }
     else if(ei.checked){
         valik2 = ei.value
+        pilt.src="../images/kurb.png"
     }
     else{
         valik2 = "palun tee oma valik"
