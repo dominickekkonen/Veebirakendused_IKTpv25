@@ -1,0 +1,29 @@
+section#yld{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+section#kalkulator1{
+    border: 1pt solid grey;
+    border-radius: 10px ;
+    width: 30%;
+    padding: 10px;
+    background: linear-gradient(to right, lightgoldenrodyellow, lightsalmon, lightcoral);
+}
+section#kalkulator2{
+    border: 1pt solid grey;
+    border-radius: 10px ;
+    width: 30%;
+    padding: 10px;
+    background: linear-gradient(to right, lightcyan , lightskyblue, lightseagreen);
+}
+section#kalkulator3{
+    border: 1pt solid grey;
+    border-radius: 10px ;
+    width: 30%;
+    padding: 10px;
+    background: linear-gradient(to right, darkseagreen, lightgreen, greenyellow);
+}
+img#vastusePilt{
+    width: 200px;
+}
