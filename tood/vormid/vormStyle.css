@@ -1,13 +1,14 @@
 form{
     text-align: center;
     border-radius: 30px;
+    background: linear-gradient(to top, lightslategrey, lightgoldenrodyellow, darkseagreen);
 }
 table, td{
     border-collapse: collapse;
     width: 30%;
     padding: 1%;
     border-radius: 30px;
-    background-color: lightgray;
+    border-color: black;
 }
 input[type=text],[type=date],[type=email],[type=file],[type=url],[type=color]{
     border: 1px solid gray;
