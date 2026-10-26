@@ -8,9 +8,9 @@ console.log("Praegune aasta on "+aasta);
 const nadalapaev=now.getDay(); //0-6, kus on 0-pühapäev
 console.log("Nadalapäeva number on "+nadalapaev);
 function tana (){
-    let vastus=document.getElementById("vastus");
-    vastus.innerHTML="Täna on "+paev+"."+kuu+"."+aasta;
+console.log("Täna on "+paev+"."+kuu+"."+aasta);
 }
+tana();
 // lisa veel getHours() , getMinutes() ja veel func mis näitab aeg
 const tund=now.getHours();
 const minutes=now.getMinutes();
