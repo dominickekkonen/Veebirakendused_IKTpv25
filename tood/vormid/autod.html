@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <title>Autod</title>
     <script src="../js/autodScript.js"></script>
+    <script src="../js/raamatuScript.js"></script>
 </head>
 <body>
     <h1>Raamat ja raamatukogu</h1>
-    <input type="button" value="Näita tulemusi" onclick="kaivita()">
-    <div id="tulemus"></div>
+    <input type="button" value="Raamatu kirjeldus" onclick="raamatuInfo()">
+    <div id="vastus"></div>
+    <br>
+    <input type="button" value="Muuda aastat" onclick="aastaMuutus()">
+    <div id="vastus2"></div>
+    <br>
+    <input type="button" value="Kuva kõik raamatud" onclick="kuvaKoik()">
+    <div id="vastus3"></div>
+    <br>
+    <label for="pealkiri">Pealkiri</label>
+    <input type="text" id="pealkiri">
+    <label for="autor">Autor</label>
+    <input type="text" id="autor">
+    <label for="aasta">Aasta</label>
+    <input type="number" id="aasta">
+    <input type="button" value="Lisa raamat" onclick="lisaUus()">
+    <div id="vastus4"></div>
+    <br>
+    <input type="button" value="Raamatute koguarv" onclick="koguarv()">
+    <div id="vastus5"></div>
+    <br>
+    <input type="button" value="Pärast 2000. aastat" onclick="uuemad()">
+    <div id="vastus6"></div>
+    <br>
+    <select id="autorValik" onchange="autoriRaamatud()">
+        <option value="vali">vali autor..</option>
+        <option value="Oskar Luts">Oskar Luts</option>
+        <option value="A. H. Tammsaare">A. H. Tammsaare</option>
+        <option value="Andrus Kivirähk">Andrus Kivirähk</option>
+    </select>
+    <br>
+    <div id="vastus7"></div>
 </body>
 </html>
