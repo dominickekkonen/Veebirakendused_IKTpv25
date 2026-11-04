@@ -94,7 +94,7 @@ console.log(raamat.kirjeldus());
 
 raamatukogu.kuvaRaamatud();
 console.log("Raamatuid kokku " + raamatukogu.koguarv());
-console.log("Pärast 2000. aastat ilmunud " + raamatukogu.peale2000());
+console.log("Pärast 2000. aastat ilmunud: " + raamatukogu.peale2000() + " raamatud");
 
 // ---------- Tulemused html lehel ----------
 function raamatuInfo() {
@@ -123,7 +123,7 @@ function koguarv() {
 
 function uuemad() {
     let vastus6 = document.getElementById("vastus6");
-    vastus6.innerHTML = "Pärast 2000. aastat ilmunud: " + raamatukogu.peale2000();
+    vastus6.innerHTML = "Pärast 2000. aastat ilmunud: " + raamatukogu.peale2000() + " raamatud";
 }
 function uuendaValik() {
     let valik = document.getElementById("autorValik");
