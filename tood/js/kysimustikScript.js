@@ -147,3 +147,22 @@ function naitaKoike(){
         'Sinu radiojaam'+radiojaam+' radiojaam'+'<br>'+
         'Sa kuuled '+tund+' tundi';
 }
+$(function(){
+    $('.viga').hide();
+    $('.submit').click(function(event){
+        var data=$('.infokast').val();
+        var len=data.length;
+        var char;
+
+        for(var i=0;i<len;i++){
+            char=data.charAt(i).charCodeAt(0);
+            if(char < 48 || char > 57){
+                $('.viga').show();
+                event.preventDefault();
+                break;
+            } else  {
+                $('.viga').hide();
+            }
+        }
+    });
+});
