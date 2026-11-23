@@ -151,3 +151,38 @@ nav{
 main {
     margin-top: 20px;
 }
+.ulBreadcrumb {
+    width: 200px;
+}
+.ulBreadcrumb .liBreadcrumb .ulBreadcrumb {
+    list-style-type:none;
+    width: 200px;
+}
+.aBreadcrumb {
+    display:block;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    background: #099;
+    color: #fff;
+    padding: 0.3em;
+}
+.liBreadcrumb {
+    display:inline;
+}
+.hover {
+    background: #3C9;
+    font-weight: 700;
+}
+.li_kujundus{
+    background-image:url(img/separator-arrow.gif);
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-left:10px;
+    display:inline;
+}
+.ul_kujundus{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:inline;
+}

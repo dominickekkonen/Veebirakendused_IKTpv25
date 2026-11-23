@@ -1,0 +1,26 @@
+#sisu{
+    position: relative;
+    left:0;
+    width:200px;
+    border: solid 1px green;
+    border-radius: 5px;
+}
+h2{
+    position: relative;
+    left:0;
+}
+img{
+    position: relative;
+    left:0;
+    width:100px;
+}
+h1{
+    color: lightseagreen;
+}
+main,header,footer{
+    background: linear-gradient(to right, lightyellow , lightgoldenrodyellow , palegoldenrod);
+}
+#peida,#kuva,#paremale,#vasakule,#hajuma,#ilmumine{
+    color: darkred;
+    background: lightsalmon;
+}
